@@ -7,8 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F610A942024727900166034 /* GoalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F610A932024727900166034 /* GoalCell.swift */; };
+		5F610A9620247B2900166034 /* GoalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F610A9520247B2900166034 /* GoalType.swift */; };
+		5F610A9820247D1F00166034 /* CreateGoalVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F610A9720247D1F00166034 /* CreateGoalVc.swift */; };
+		5F610A9A2024871000166034 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F610A992024871000166034 /* UIViewControllerExt.swift */; };
+		5F610A9C2024A4FE00166034 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F610A9B2024A4FE00166034 /* UIViewExt.swift */; };
+		5F610A9E2024A9A300166034 /* UIButtonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F610A9D2024A9A300166034 /* UIButtonExt.swift */; };
+		5F610AA02024CB2100166034 /* FinishGoalsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F610A9F2024CB2100166034 /* FinishGoalsVC.swift */; };
+		5F610AA32024D7FC00166034 /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F610AA22024D7FC00166034 /* CoreDataHelper.swift */; };
+		5F610AA62024D8FE00166034 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F610AA52024D8FE00166034 /* Constants.swift */; };
 		5F6C5AA4201D363700F1EF71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6C5AA3201D363700F1EF71 /* AppDelegate.swift */; };
-		5F6C5AA6201D363700F1EF71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6C5AA5201D363700F1EF71 /* ViewController.swift */; };
+		5F6C5AA6201D363700F1EF71 /* GoalsVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6C5AA5201D363700F1EF71 /* GoalsVc.swift */; };
 		5F6C5AA9201D363700F1EF71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F6C5AA7201D363700F1EF71 /* Main.storyboard */; };
 		5F6C5AAC201D363700F1EF71 /* GoalPost.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5F6C5AAA201D363700F1EF71 /* GoalPost.xcdatamodeld */; };
 		5F6C5AAE201D363700F1EF71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F6C5AAD201D363700F1EF71 /* Assets.xcassets */; };
@@ -16,9 +25,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F610A932024727900166034 /* GoalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCell.swift; sourceTree = "<group>"; };
+		5F610A9520247B2900166034 /* GoalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalType.swift; sourceTree = "<group>"; };
+		5F610A9720247D1F00166034 /* CreateGoalVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGoalVc.swift; sourceTree = "<group>"; };
+		5F610A992024871000166034 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
+		5F610A9B2024A4FE00166034 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		5F610A9D2024A9A300166034 /* UIButtonExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExt.swift; sourceTree = "<group>"; };
+		5F610A9F2024CB2100166034 /* FinishGoalsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishGoalsVC.swift; sourceTree = "<group>"; };
+		5F610AA22024D7FC00166034 /* CoreDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
+		5F610AA52024D8FE00166034 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		5F6C5AA0201D363700F1EF71 /* GoalPost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoalPost.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F6C5AA3201D363700F1EF71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5F6C5AA5201D363700F1EF71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5F6C5AA5201D363700F1EF71 /* GoalsVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsVc.swift; sourceTree = "<group>"; };
 		5F6C5AA8201D363700F1EF71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5F6C5AAB201D363700F1EF71 /* GoalPost.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GoalPost.xcdatamodel; sourceTree = "<group>"; };
 		5F6C5AAD201D363700F1EF71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -37,6 +55,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F610AA12024D7E700166034 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5F610AA22024D7FC00166034 /* CoreDataHelper.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		5F610AA42024D8E700166034 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				5F610AA52024D8FE00166034 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
 		5F6C5A97201D363700F1EF71 = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +90,13 @@
 		5F6C5AA2201D363700F1EF71 /* GoalPost */ = {
 			isa = PBXGroup;
 			children = (
-				5F6C5AB8201D364000F1EF71 /* New Group */,
+				5F610AA42024D8E700166034 /* Constants */,
+				5F610AA12024D7E700166034 /* Services */,
+				5F6C5ABB201D366600F1EF71 /* Extensions */,
+				5F6C5ABA201D365400F1EF71 /* Enums */,
+				5F6C5AB9201D364B00F1EF71 /* View */,
+				5F6C5AB8201D364000F1EF71 /* Controller */,
 				5F6C5AA3201D363700F1EF71 /* AppDelegate.swift */,
-				5F6C5AA5201D363700F1EF71 /* ViewController.swift */,
 				5F6C5AA7201D363700F1EF71 /* Main.storyboard */,
 				5F6C5AAD201D363700F1EF71 /* Assets.xcassets */,
 				5F6C5AAF201D363700F1EF71 /* LaunchScreen.storyboard */,
@@ -68,11 +106,40 @@
 			path = GoalPost;
 			sourceTree = "<group>";
 		};
-		5F6C5AB8201D364000F1EF71 /* New Group */ = {
+		5F6C5AB8201D364000F1EF71 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				5F6C5AA5201D363700F1EF71 /* GoalsVc.swift */,
+				5F610A9720247D1F00166034 /* CreateGoalVc.swift */,
+				5F610A9F2024CB2100166034 /* FinishGoalsVC.swift */,
 			);
-			path = "New Group";
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5F6C5AB9201D364B00F1EF71 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5F610A932024727900166034 /* GoalCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5F6C5ABA201D365400F1EF71 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				5F610A9520247B2900166034 /* GoalType.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		5F6C5ABB201D366600F1EF71 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5F610A992024871000166034 /* UIViewControllerExt.swift */,
+				5F610A9B2024A4FE00166034 /* UIViewExt.swift */,
+				5F610A9D2024A9A300166034 /* UIButtonExt.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,9 +214,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F6C5AA6201D363700F1EF71 /* ViewController.swift in Sources */,
+				5F610A942024727900166034 /* GoalCell.swift in Sources */,
+				5F610A9620247B2900166034 /* GoalType.swift in Sources */,
+				5F6C5AA6201D363700F1EF71 /* GoalsVc.swift in Sources */,
 				5F6C5AA4201D363700F1EF71 /* AppDelegate.swift in Sources */,
+				5F610AA02024CB2100166034 /* FinishGoalsVC.swift in Sources */,
+				5F610A9C2024A4FE00166034 /* UIViewExt.swift in Sources */,
 				5F6C5AAC201D363700F1EF71 /* GoalPost.xcdatamodeld in Sources */,
+				5F610A9A2024871000166034 /* UIViewControllerExt.swift in Sources */,
+				5F610AA32024D7FC00166034 /* CoreDataHelper.swift in Sources */,
+				5F610A9E2024A9A300166034 /* UIButtonExt.swift in Sources */,
+				5F610A9820247D1F00166034 /* CreateGoalVc.swift in Sources */,
+				5F610AA62024D8FE00166034 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
