@@ -45,3 +45,20 @@
         }
     }
     }
+    
+        //---------------------------   Save in CoreData   -----------------------------------//
+     func save(completion: (_ finished: Bool) -> ()) {
+        guard let manageContex = appDelegate?.persistentContainer.viewContext else {return}
+        let goal = Goal(context: manageContex)
+        goal.goalDescription = goalDescription
+        goal.goalType = type.rawValue
+        goal.goalComplitionValue = Int32(txtPoints.text!)!
+        goal.goalProgress = Int32(0)
+        do {
+         try  manageContex.save()
+            completion(true)
+        } catch {
+            debugPrint("could not save \(error.localizedDescription)")
+            completion(false)
+        }
+    }
