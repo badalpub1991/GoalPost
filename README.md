@@ -1,5 +1,9 @@
 # GoalPost
 
+#### XCData Model
+![screen shot 2018-03-30 at 11 35 55 pm](https://user-images.githubusercontent.com/11573422/38154607-2bd613cc-3473-11e8-9d26-7bf21fcc44b6.png)
+
+
 ### Fetch , Update , Delete Data from CoreData
 
      extension GoalsVc {
