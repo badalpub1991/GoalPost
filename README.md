@@ -44,4 +44,4 @@
             debugPrint("Object not deleted:\(error.localizedDescription)")
         }
     }
-}
+   }
