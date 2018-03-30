@@ -2,7 +2,7 @@
 
 ### Fetch , Update , Delete Data from CoreData
 
-   extension GoalsVc {
+     extension GoalsVc {
     //-------------------------  Update CoreData  ------------------------------------------------------//
     func setProgress(atIndexpath indexPath:IndexPath) {
         guard let managedContext = appDelegate?.persistentContainer.viewContext else {return}
